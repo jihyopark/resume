@@ -1,0 +1,256 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubheadings}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+
+\begin{center}
+    \textbf{\Large \scshape Jihyo Park} \\ \vspace{3pt}
+    \small \href{mailto:jihyo@umd.edu}{\underline{jihyo@umd.edu}} $|$ +1 (650) 390 - 7212 $|$ 
+    \href{https://linkedin.com/in/jihyopark/}{\underline{linkedin.com/in/jihyopark/}} $|$
+    \href{https://github.com/jihyopark}{\underline{github.com/jihyopark}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Objective}
+\small{Seeking for an internship position during summer 2025 as a expected spring 2026 graduate majoring in Computer Science and Mathematics}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheadings
+      {University of Maryland $|$ Dual Degree}{College Park, MD}
+      {Bachelor of Science in Computer Science}{Expected May 2026}
+      {Bachelor of Science in Mathematics}{GPA: $3.95/4.0$}
+        \resumeItemListStart
+          \vspace{3pt}
+            \resumeItem{\textbf{Honors:} President’s Scholarship, 2022-2024 Dean’s List}
+            \resumeItem{\textbf{Courses:} Probability Theory, Computer Systems Architecture, Advanced Data Structures, Artificial Intelligence, 
+            Data Science, Algorithms, Organization of Programming Languages, 
+            Harmonic Analysis: Signals Processing, 
+            Advanced Linear Algebra, Computer Systems, Discrete Structures, 
+            Object-Oriented Programming II, Calculus III }
+        \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Teaching Assistant - Introduction to Computer Systems (CMSC216)}{January 2024 - Present}
+      {Department of Computer Science, University of Maryland}{College Park, MD}
+      \resumeItemListStart
+      \vspace{3pt}
+        \resumeItem{Led 4 discussions of 72+ direct students, demonstrated C and Assembly labs that precede lectures}
+        \resumeItem{Held office hours twice a week to assist a total of 200+ students in understanding concepts and 
+        debugging projects regarding C and x86-64 Assembly languages}
+        \resumeItem{Constructed rubrics and graded 170+ student exams and projects every month}
+      \resumeItemListEnd
+      \vspace{3pt}
+    \resumeSubheading
+      {CMNS Peer Mentor}{March 2024 - Present}
+      {College of Computer, Mathematics, and Natural Sciences (CMNS), University of Maryland}{College Park, MD}
+      \resumeItemListStart
+      \vspace{3pt}
+        \resumeItem{Worked alongside the CMNS to help students navigate academics, career, and social aspects of university}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Intern}{June 2024 - August 2024}
+      {Way Maker School, D.LAB}{Bundang-gu, Republic of Korea}
+      \resumeItemListStart
+      \vspace{3pt}
+        \resumeItem{Coached a focus group of 10 middle/high school students in their machine learning projects}
+        \resumeItem{Provided support in algorithm, debugging, problem solving, and constructing reports}
+      \resumeItemListEnd
+     
+    \resumeSubHeadingListEnd
+
+% %-----------COMMUNITY AND LEADERSHIP-----------
+% \section{Community \& Leadership}
+%   \resumeSubHeadingListStart
+
+%     \resumeSubheading
+%       {Role 1}{November 2021 – Present}
+%       {Club/Organization 1}{Melbourne, VIC}
+%       \resumeItemListStart
+%         \resumeItem{Job description/Award/Achievement 1}
+%         \resumeItem{Job description/Award/Achievement 2}
+%         \resumeItem{Job description/Award/Achievement 3}
+%       \resumeItemListEnd
+      
+%     \resumeSubheading
+%       {Role 2}{November 2021 – Present}
+%       {Club/Organization 2}{Melbourne, VIC}
+%       \resumeItemListStart
+%         \resumeItem{Job description/Award/Achievement 1}
+%         \resumeItem{Job description/Award/Achievement 2}
+%         \resumeItem{Job description/Award/Achievement 3}
+%       \resumeItemListEnd
+
+%     \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Selected Projects}
+
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Terp2Table} $|$ \emph{Technica 2023 (Hackathon)}}{October 2023}
+          \resumeItemListStart
+            \resumeItem{1st place, Optiver: Best Hack for Sustainability}
+            \resumeItem{Developed a marketplace for UMD students living in 
+            apartments to cook or buy affordable meals from their neighbors.
+             Contributed in data communication with Firebase}
+            \resumeItem{Web app development using React.js, HTML, CSS, JavaScript, and Firebase}
+            \resumeItem{Implemented Google authentication sign-in, main feed, reservation form, and more}
+          \resumeItemListEnd
+          \vspace{3pt}
+      \resumeProjectHeading
+          {\textbf{CollegeTalks} $|$ \emph{Personal Project}}{August 2023 - May 2024}
+          \resumeItemListStart
+            \resumeItem{Developed a marketplace for college applicants and college students to be connected for 
+            college counseling, information gathering, and general guidance}
+            \resumeItem{Cross-platform app development using Flutter and Firebase}
+            \resumeItem{Implemented sign-in, main feed/search, chat, scheduling, payment, reviews, and more}
+            \resumeItem{Acquired essential skills in all steps of MVP release, Beta testing, and skills in collaboration}
+          \resumeItemListEnd
+          \vspace{3pt}
+      \resumeProjectHeading
+          {\textbf{Other Project Topics} $|$ \emph{Projects from Coursework}}{August 2022 - Present}
+          \resumeItemListStart
+            \resumeItem{Artificial Intelligence: Reinforcement Learning (Q-learning), IMDB movie poster data genre classification, 
+            simple image classifier in Python}
+            \resumeItem{Data Structures: B-trees, scapegoat trees, skip lists, and other data structure implementation in Python}
+            \resumeItem{Programming Languages: Lambda Calculus interpreter (lexer, parser, \& interpreter) in OCaml, Regex engine (Regex to NFA \& NFA to DFA) in Python and OCaml, spell checker in Rust}
+            \resumeItem{Computer Systems: figlet, Makefile, and malloc()/free() implementation in C (TA)}
+            % \resumeItem{Signals Processing: frames, Discrete Fourier Transform, and Discrete Haar Transform implementation in MATLAB}
+            % \resumeItem{Computer Systems: xargs (multiprocessing) and wc (multithreading) implementation in C}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+
+%
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages:}{ Python, Java, C/C++, OCaml, Rust, MIPS 
+     and x86-64 Assembly, MATLAB, HTML/CSS, JavaScript, MySQL} \\
+     \vspace{3pt}
+     \textbf{Tools, Frameworks, and Libraries:}{ git, Flutter/Dart, Firebase, 
+     TensorFlow, PyTorch, LaTeX} \\
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
