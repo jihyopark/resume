@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1726432670 "/Users/jihyopark/Documents/resume/jihyo-park-resume.tex" "jihyo-park-resume.pdf" "jihyo-park-resume" 1726432670 0
-  "/Users/jihyopark/Documents/resume/jihyo-park-resume.tex" 1726432669 9801 9bfac8f875c6a4ad4de13e057c7b76c9 ""
+["pdflatex"] 1726432757 "/Users/jihyopark/Documents/resume/jihyo-park-resume.tex" "jihyo-park-resume.pdf" "jihyo-park-resume" 1726432758 0
+  "/Users/jihyopark/Documents/resume/jihyo-park-resume.tex" 1726432757 9823 be5fa202e11fd88a1dea43858f92177c ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -81,9 +81,9 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1708470656 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1708470623 7883464 4476210e918a60740e483e85caf3b093 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "jihyo-park-resume.aux" 1726432670 1180 77b5539d322ecabb799043b3eeb22703 "pdflatex"
-  "jihyo-park-resume.out" 1726432670 526 e0f3fe19866ca92943d8752b83cc1bed "pdflatex"
-  "jihyo-park-resume.tex" 1726432669 9801 9bfac8f875c6a4ad4de13e057c7b76c9 ""
+  "jihyo-park-resume.aux" 1726432758 1180 77b5539d322ecabb799043b3eeb22703 "pdflatex"
+  "jihyo-park-resume.out" 1726432758 526 e0f3fe19866ca92943d8752b83cc1bed "pdflatex"
+  "jihyo-park-resume.tex" 1726432757 9823 be5fa202e11fd88a1dea43858f92177c ""
   (generated)
   "jihyo-park-resume.aux"
   "jihyo-park-resume.log"
